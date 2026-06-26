@@ -33,10 +33,10 @@ export default function Portada() {
           <h1 className="roboto-black p-12 text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-serif">
             Nuestra Boda
           </h1>
-          <p className="font-serif text-2xl sm:text-2xl md:text-3xl lg:text-4xl" >11 |
-             06 | 2026
+          <p className="font-serif text-2xl sm:text-2xl md:text-3xl lg:text-4xl" >25 |
+             07 | 2026
           </p>
-          <p className="font-serif text-lg sm:text-2xl md:text-3xl lg:text-4xl">Karla & Mark</p>
+          <p className="font-serif text-lg sm:text-2xl md:text-3xl lg:text-4xl">Jessica & Ángel</p>
         </div>
       </section>
     </div>

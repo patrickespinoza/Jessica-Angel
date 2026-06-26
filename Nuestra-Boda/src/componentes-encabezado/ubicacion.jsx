@@ -11,97 +11,141 @@ const Celebracion = ({
   titulo,
 }) => {
   return (
-    <div className="w-full bg-[#5E6650] py-20 px-6 flex flex-col items-center justify-center">
+    <section className="w-full bg-[#F8F4EB] py-24 px-5 overflow-hidden">
+      <div className="max-w-6xl mx-auto">
 
-      {/* FECHA */}
-      <div className="text-center mb-10">
+        {/* FECHA */}
+        <div className="text-center mb-20">
 
-        <p className="text-[#E7D7B1] tracking-[0.35em] uppercase text-sm sm:text-base font-semibold">
-          {dia}
-        </p>
+          <p className="uppercase tracking-[0.45em] text-[#B89B5E] text-xs sm:text-sm font-semibold">
+            {dia}
+          </p>
 
-        <h1 className="text-7xl sm:text-8xl font-playfair text-[#F7F4ED] leading-none mt-3 drop-shadow-lg">
-          {fecha}
-        </h1>
+          <h1 className="mt-5 font-playfair text-[#40362B] text-7xl sm:text-8xl md:text-9xl leading-none">
+            {fecha}
+          </h1>
 
-        <p className="text-[#E7D7B1] text-2xl sm:text-3xl tracking-[0.2em] mt-3">
-          {mesAnio}
-        </p>
+          <div className="w-24 h-[1px] bg-[#C9A44C] mx-auto my-6"></div>
 
-      </div>
-
-      {/* TARJETA */}
-      <div
-        className="
-          relative bg-[#F7F4ED] max-w-xl w-full p-10 sm:p-14
-          shadow-[0_15px_50px_rgba(0,0,0,0.25)]
-          border border-[#d8cfbf]
-
-          rounded-tl-[4rem]
-          rounded-br-[4rem]
-          rounded-tr-[0.8rem]
-          rounded-bl-[0.8rem]
-        "
-      >
-
-        <div className="absolute top-5 left-1/2 -translate-x-1/2 w-28 h-[2px] bg-[#B89B5E]"></div>
-
-        <div className="text-center space-y-3">
-
-          <h2 className="text-3xl sm:text-4xl font-playfair text-black tracking-wide">
-            {titulo}
-          </h2>
-
-          <div className="w-20 h-[2px] mx-auto bg-[#B89B5E]"></div>
+          <p className="text-[#7B6A56] text-2xl sm:text-3xl tracking-[0.25em]">
+            {mesAnio}
+          </p>
 
         </div>
 
-        <div className="mt-10 flex flex-col items-center text-center space-y-6">
+        {/* TARJETA */}
+        <div className="relative">
 
-          <div>
-            <p className="text-[#B89B5E] uppercase tracking-[0.25em] text-sm">
-              Hora
-            </p>
+          {/* Marco exterior */}
+          <div className="absolute inset-0 border border-[#D7C28A] pointer-events-none"></div>
 
-            <p className="text-2xl font-cursiveDancing text-black mt-2">
-              {hora}
-            </p>
-          </div>
+          {/* Marco interior */}
+          <div className="absolute inset-4 border border-[#E7D8AE] pointer-events-none"></div>
 
-          <div>
-
-            <p className="text-[#B89B5E] uppercase tracking-[0.25em] text-sm">
-              Lugar
-            </p>
-
-            <p className="text-2xl font-cursiveDancing text-black mt-2">
-              {lugar}
-            </p>
-
-            <p className="text-black/70 mt-3 leading-relaxed text-sm sm:text-base max-w-md">
-              {direccion}
-            </p>
-
-          </div>
-
-          <a
-            href={ubicacion}
-            target="_blank"
-            rel="noreferrer"
+          <div
             className="
-              mt-4 bg-[#B89B5E] hover:scale-105 transition duration-300
-              text-white px-8 py-3 rounded-full shadow-lg tracking-wide
+              relative
+              bg-white
+              px-8
+              py-16
+              sm:px-16
+              sm:py-20
+              shadow-[0_20px_60px_rgba(100,75,35,0.08)]
             "
           >
-            Ver Ubicación
-          </a>
+
+            {/* Línea superior */}
+            <div className="flex justify-center mb-8">
+              <div className="w-20 h-[2px] bg-[#C9A44C]"></div>
+            </div>
+
+            {/* TITULO */}
+            <h2 className="text-center font-playfair text-[#40362B] text-4xl sm:text-5xl">
+              {titulo}
+            </h2>
+
+            <p className="text-center text-[#B89B5E] uppercase tracking-[0.4em] text-xs mt-3">
+              Wedding Day
+            </p>
+
+            <div className="w-16 h-[1px] bg-[#D7C28A] mx-auto mt-6"></div>
+
+            {/* CONTENIDO */}
+
+            <div className="mt-14 space-y-12">
+
+              <div className="text-center">
+
+                <p className="uppercase tracking-[0.35em] text-[#B89B5E] text-xs mb-4">
+                  Hora
+                </p>
+
+                <p className="font-playfair text-[#40362B] text-3xl">
+                  {hora}
+                </p>
+
+              </div>
+
+              <div className="text-center">
+
+                <p className="uppercase tracking-[0.35em] text-[#B89B5E] text-xs mb-4">
+                  Lugar
+                </p>
+
+                <h3 className="font-playfair text-[#40362B] text-3xl leading-snug">
+                  {lugar}
+                </h3>
+
+                <p className="mt-5 text-[#6F6458] leading-8 max-w-lg mx-auto text-base">
+                  {direccion}
+                </p>
+
+              </div>
+
+            </div>
+
+            {/* BOTON */}
+
+            <div className="flex justify-center mt-16">
+
+              <a
+                href={ubicacion}
+                target="_blank"
+                rel="noreferrer"
+                className="
+                  border
+                  border-[#C9A44C]
+                  text-[#B89B5E]
+                  bg-white
+                  px-10
+                  py-4
+                  uppercase
+                  tracking-[0.25em]
+                  text-xs
+                  transition-all
+                  duration-300
+                  hover:bg-[#C9A44C]
+                  hover:text-white
+                  hover:shadow-xl
+                "
+              >
+                Ver Ubicación
+              </a>
+
+            </div>
+
+            {/* Línea inferior */}
+
+            <div className="flex justify-center mt-14">
+              <div className="w-20 h-[2px] bg-[#C9A44C]"></div>
+            </div>
+
+          </div>
 
         </div>
 
-        <div className="absolute bottom-5 left-1/2 -translate-x-1/2 w-28 h-[2px] bg-[#B89B5E]"></div>
-
       </div>
-    </div>
+    </section>
   );
 };
 
