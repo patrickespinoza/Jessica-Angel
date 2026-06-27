@@ -16,22 +16,22 @@ export default function Itinerario() {
       <div className="overflow-hidden">
 
         <Celebracion
-          titulo="Recepción"
+          titulo="Misa"
           dia="Sabado"
           fecha="25"
           mesAnio="Julio 2026"
-          hora="4:30 PM"
-          lugar="Salón ilusiones"
-          direccion="Av. Gregorio Méndez Magaña 2720, Atasta de Serra, 86100 Villahermosa, Tab."
-          ubicacion="https://maps.app.goo.gl/oZBfi9C5BEBnouBMA"
-        />
-        <Celebracion
-          titulo="Misa"
-          hora="4:30 PM"
+          hora="7:00 PM"
           lugar="Parroquia de San Sebastán Mártir"
           direccion="Av. Gregorio Méndez Magaña 2907, Atasta de Serra, 86100 Villahermosa, Tab."
           ubicacion="https://maps.app.goo.gl/UD4DfL9BKCJCGTvQ6"
-        />
+          />
+          <Celebracion
+          titulo="Recepción"
+            hora="8:30 PM"
+            lugar="Salón ilusiones"
+            direccion="Av. Gregorio Méndez Magaña 2720, Atasta de Serra, 86100 Villahermosa, Tab."
+            ubicacion="https://maps.app.goo.gl/oZBfi9C5BEBnouBMA"
+            />
 
       </div>
 
