@@ -57,7 +57,7 @@ export default function Itinerario() {
 
     <h2
       className="
-        font-playfair
+        font-cursiveDancing
         text-4xl
         md:text-5xl
         text-[#8D6B2F]
@@ -70,7 +70,7 @@ export default function Itinerario() {
 
     <p
       className="
-        font-playfair
+        font-cursiveDancing
         text-xl
         md:text-3xl
         leading-relaxed
@@ -84,7 +84,7 @@ export default function Itinerario() {
 
     <p
       className="
-        font-[DancingScript]
+        font-cursiveDancing
         text-[#B8924C]
         text-5xl
         md:text-7xl
@@ -99,7 +99,7 @@ export default function Itinerario() {
 
     <p
       className="
-        font-playfair
+        font-cursiveDancing
         text-2xl
         md:text-3xl
         text-[#8D6B2F]
@@ -111,7 +111,7 @@ export default function Itinerario() {
 
     <p
       className="
-        font-playfair
+        font-cursiveDancing
         text-base
         md:text-lg
         tracking-wide

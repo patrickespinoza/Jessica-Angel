@@ -13,25 +13,25 @@ const Novios = () => {
           className="
             relative
             bg-[#FFFDF8]
-            border border-[#C9A44C]/50
+            border border-[#b9a474]/50
             shadow-[0_30px_90px_rgba(105,76,25,0.18)]
             px-5 py-14 sm:px-12 sm:py-20
             overflow-hidden
           "
         >
           {/* Marco doble */}
-          <div className="absolute inset-4 border border-[#C9A44C]/45 pointer-events-none" />
+          <div className="absolute inset-4 border border-[#b9a474]/45 pointer-events-none" />
           <div className="absolute inset-7 border border-[#E8D8A8]/50 pointer-events-none" />
 
           {/* Ornamentos de esquina */}
-          <div className="absolute top-4 left-4 w-20 h-20 border-t-2 border-l-2 border-[#C9A44C]" />
-          <div className="absolute top-4 right-4 w-20 h-20 border-t-2 border-r-2 border-[#C9A44C]" />
-          <div className="absolute bottom-4 left-4 w-20 h-20 border-b-2 border-l-2 border-[#C9A44C]" />
-          <div className="absolute bottom-4 right-4 w-20 h-20 border-b-2 border-r-2 border-[#C9A44C]" />
+          <div className="absolute top-4 left-4 w-20 h-20 border-t-2 border-l-2 border-[#b9a474]" />
+          <div className="absolute top-4 right-4 w-20 h-20 border-t-2 border-r-2 border-[#b9a474]" />
+          <div className="absolute bottom-4 left-4 w-20 h-20 border-b-2 border-l-2 border-[#b9a474]" />
+          <div className="absolute bottom-4 right-4 w-20 h-20 border-b-2 border-r-2 border-[#b9a474]" />
 
           {/* Brillos */}
           <div className="absolute -top-28 left-1/2 -translate-x-1/2 w-[420px] h-[420px] bg-[#E8D8A8]/35 rounded-full blur-3xl" />
-          <div className="absolute -bottom-40 -right-20 w-[360px] h-[360px] bg-[#C9A44C]/15 rounded-full blur-3xl" />
+          <div className="absolute -bottom-40 -right-20 w-[360px] h-[360px] bg-[#b9a474]/15 rounded-full blur-3xl" />
 
           <div className="relative z-10 text-center">
             {/* Monograma */}
@@ -44,7 +44,7 @@ const Novios = () => {
                 mx-auto
                 w-24 h-24 sm:w-28 sm:h-28
                 rounded-full
-                border border-[#C9A44C]
+                border border-[#b9a474]
                 flex items-center justify-center
                 bg-white/70
                 shadow-[0_15px_40px_rgba(105,76,25,0.12)]
@@ -53,7 +53,7 @@ const Novios = () => {
               <span className="font-playfair text-4xl sm:text-5xl text-[#B89B5E]">
                 J
               </span>
-              <span className="font-[DancingScript] text-4xl sm:text-5xl text-[#C9A44C] mx-1">
+              <span className="font-[DancingScript] text-4xl sm:text-5xl text-[#b9a474] mx-1">
                 &
               </span>
               <span className="font-playfair text-4xl sm:text-5xl text-[#B89B5E]">
@@ -103,7 +103,7 @@ const Novios = () => {
               className="
                 my-3
                 font-[DancingScript]
-                text-[#C9A44C]
+                text-[#b9a474]
                 text-6xl sm:text-7xl
                 leading-none
               "
@@ -136,9 +136,9 @@ const Novios = () => {
                 mt-8
                 max-w-xl mx-auto
                 text-[#7A6A55]
-                text-base sm:text-lg
+                text-lg sm:text-2xl
                 leading-relaxed
-                font-roboto
+                font-cursiveDancing
               "
             >
               Tenemos el honor de invitarte a celebrar el inicio de nuestra historia juntos.
@@ -156,13 +156,14 @@ const Novios = () => {
                   border border-[#D8BE76]/45
                   px-6 py-8
                   text-center
+                  font-cursiveDancing
                 "
               >
-                <p className="uppercase tracking-[0.22em] text-[#B89B5E] text-xs mb-5">
+                <p className="uppercase tracking-[0.22em] text-[#B89B5E] text-xl mb-5">
                   Padres de la Novia
                 </p>
-                <p className="font-serif text-2xl text-[#3E3529]">Roberto De la Cruz Carrillo</p>
-                <p className="font-serif text-2xl text-[#3E3529] mt-2">Ninive Herrera Martinez</p>
+                <p className=" text-3xl text-[#3E3529]">Roberto De la Cruz Carrillo</p>
+                <p className=" text-3xl text-[#3E3529] mt-2">Ninive Herrera Martinez</p>
               </motion.div>
 
               <motion.div
@@ -172,16 +173,17 @@ const Novios = () => {
                 viewport={{ once: true }}
                 className="
                   bg-white
-                  border border-[#C9A44C]/60
+                  border border-[#b9a474]/60
                   px-6 py-8
                   flex flex-col items-center justify-center
                   shadow-[0_20px_45px_rgba(105,76,25,0.12)]
+                  font-cursiveDancing
                 "
               >
-                <p className="font-[DancingScript] text-4xl text-[#C9A44C]">
+                <p className=" text-4xl text-[#b9a474]">
                   Con la bendición
                 </p>
-                <div className="w-20 h-[1px] bg-[#C9A44C] my-5" />
+                <div className="w-20 h-[1px] bg-[#b9a474] my-5" />
                 <p className="text-[#7A6A55] text-sm uppercase tracking-[0.25em]">
                   De nuestros padres
                 </p>
@@ -197,13 +199,14 @@ const Novios = () => {
                   border border-[#D8BE76]/45
                   px-6 py-8
                   text-center
+                  font-cursiveDancing
                 "
               >
-                <p className="uppercase tracking-[0.22em] text-[#B89B5E] text-xs mb-5">
+                <p className="uppercase tracking-[0.22em] text-[#B89B5E] text-lg mb-5">
                   Padres del Novio
                 </p>
-                <p className="font-serif text-2xl text-[#3E3529]">Abelardo Morales Hernandez</p>
-                <p className="font-serif text-2xl text-[#3E3529] mt-2">Rafaela Martinez Damian</p>
+                <p className=" text-3xl text-[#3E3529]">Abelardo Morales Hernandez</p>
+                <p className=" text-3xl text-[#3E3529] mt-2">Rafaela Martinez Damian</p>
               </motion.div>
             </div>
           </div>

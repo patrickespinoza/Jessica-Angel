@@ -95,19 +95,19 @@ const Confirmacion = () => {
         <div className="absolute -bottom-28 -right-28 w-72 h-72 bg-[#F1E2B8]/35 rounded-full blur-3xl" />
 
         <div className="relative z-10">
-          <p className="uppercase tracking-[0.45em] text-[#B89B5E] text-xs sm:text-sm font-semibold">
+          <p className="uppercase tracking-[0.45em] text-[#B89B5E] text-xl sm:text-xl font-semibold font-cursiveDancing">
             RSVP
           </p>
 
-          <h1 className="font-playfair text-[#40362B] text-4xl sm:text-5xl mt-5 leading-tight">
+          <h1 className="font-cursiveDancing text-[#40362B] text-4xl sm:text-5xl mt-5 leading-tight">
             Confirmar Asistencia
           </h1>
 
-          <div className="w-24 h-[1px] bg-[#C9A44C] mx-auto my-8"></div>
+          <div className="w-24 h-[1px] bg-[#b9a474] mx-auto my-8"></div>
 
-          <p className="max-w-md mx-auto text-[#6F6458] text-base leading-7 mb-10">
+          <p className="max-w-md mx-auto text-[#40362B] text-3xl leading-tight mb-10 font-cursiveDancing font-black">
             Será un honor contar con tu presencia en este día tan especial.
-            Por favor confirma tu asistencia.
+            Por favor confirma tu asistencia antes del dia 10 de Julio.
           </p>
 
           <form onSubmit={enviarConfirmacion} className="space-y-6">
@@ -128,10 +128,10 @@ const Confirmacion = () => {
                 px-6
                 py-4
                 outline-none
-                focus:border-[#C9A44C]
+                focus:border-[#b9a474]
                 focus:shadow-[0_0_0_3px_rgba(201,164,76,0.15)]
                 transition
-                font-playfair
+                font-cursiveDancing
               "
             />
 
@@ -144,11 +144,11 @@ const Confirmacion = () => {
                   border
                   transition-all
                   duration-300
-                  font-playfair
+                  font-cursiveDancing
                   ${
                     form.asistencia === "Sí asistiré"
-                      ? "bg-[#C9A44C] text-white border-[#C9A44C] shadow-[0_12px_30px_rgba(201,164,76,0.25)]"
-                      : "bg-white text-[#40362B] border-[#D7C28A]/80 hover:border-[#C9A44C]"
+                      ? "bg-[#b9a474] text-white border-[#b9a474] shadow-[0_12px_30px_rgba(201,164,76,0.25)]"
+                      : "bg-white text-[#40362B] border-[#D7C28A]/80 hover:border-[#b9a474]"
                   }
                 `}
               >
@@ -172,11 +172,11 @@ const Confirmacion = () => {
                   border
                   transition-all
                   duration-300
-                  font-playfair
+                  font-cursiveDancing
                   ${
                     form.asistencia === "No podré asistir"
-                      ? "bg-[#C9A44C] text-white border-[#C9A44C] shadow-[0_12px_30px_rgba(201,164,76,0.25)]"
-                      : "bg-white text-[#40362B] border-[#D7C28A]/80 hover:border-[#C9A44C]"
+                      ? "bg-[#b9a474] text-white border-[#b9a474] shadow-[0_12px_30px_rgba(201,164,76,0.25)]"
+                      : "bg-white text-[#40362B] border-[#D7C28A]/80 hover:border-[#b9a474]"
                   }
                 `}
               >
@@ -210,11 +210,11 @@ const Confirmacion = () => {
                 px-6
                 py-4
                 outline-none
-                focus:border-[#C9A44C]
+                focus:border-[#b9a474]
                 focus:shadow-[0_0_0_3px_rgba(201,164,76,0.15)]
                 transition
                 resize-none
-                font-playfair
+                font-cursiveDancing
               "
             />
 
@@ -233,15 +233,15 @@ const Confirmacion = () => {
                 transition-all
                 duration-300
                 border
-                border-[#C9A44C]
+                border-[#b9a474]
                 flex
                 items-center
                 justify-center
                 gap-3
                 ${
                   enviando
-                    ? "bg-[#C9A44C]/50 text-white cursor-not-allowed"
-                    : "bg-white text-[#B89B5E] hover:bg-[#C9A44C] hover:text-white hover:shadow-xl"
+                    ? "bg-[#b9a474]/50 text-white cursor-not-allowed"
+                    : "bg-white text-[#B89B5E] hover:bg-[#b9a474] hover:text-white hover:shadow-xl"
                 }
               `}
             >
@@ -254,7 +254,7 @@ const Confirmacion = () => {
           </form>
 
           {enviado && (
-            <p className="mt-8 text-[#B89B5E] font-[DancingScript] text-3xl">
+            <p className="mt-8 text-[#B89B5E] font-cursiveDancing text-3xl">
               Gracias, tu confirmación ha sido enviada.
             </p>
           )}

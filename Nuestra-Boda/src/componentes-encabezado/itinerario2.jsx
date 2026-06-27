@@ -68,15 +68,15 @@ const Itinerario2 = () => {
           className="text-center"
         >
 
-          <p className="uppercase tracking-[0.25em] text-[#B89B5E] text-sm font-semibold">
+          <p className="uppercase tracking-[0.25em] text-[#b9a474] text-xl font-semibold font-cursiveDancing">
             Nuestro Día
           </p>
 
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-playfair text-black mt-4">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-cursiveDancing text-black mt-4">
             Itinerario
           </h1>
 
-          <div className="w-24 h-[2px] bg-[#B89B5E] mx-auto mt-6"></div>
+          <div className="w-24 h-[2px] bg-[#b9a474] mx-auto mt-6"></div>
 
         </motion.div>
 
@@ -84,7 +84,7 @@ const Itinerario2 = () => {
         <div className="relative mt-20">
 
           {/* Línea central desktop */}
-          <div className="hidden md:block absolute left-1/2 top-0 h-full w-[3px] bg-[#B89B5E]/40 -translate-x-1/2"></div>
+          <div className="hidden md:block absolute left-1/2 top-0 h-full w-[3px] bg-[#b9a474]/40 -translate-x-1/2"></div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-14">
 
@@ -116,13 +116,16 @@ const Itinerario2 = () => {
                     src={evento.imagen}
                     alt={evento.titulo}
                     className="h-20 w-20 md:h-24 md:w-24 mx-auto"
+                    style={{
+  filter: "brightness(0)"
+}}
                   />
 
-                  <h2 className="mt-5 text-2xl font-playfair text-black">
+                  <h2 className="mt-5 text-2xl font-cursiveDancing text-black">
                     {evento.titulo}
                   </h2>
 
-                  <p className="mt-3 text-[#B89B5E] font-[DancingScript] text-xl">
+                  <p className="mt-3 text-[#b9a474] font-cursiveDancing text-xl">
                     {evento.hora}
                   </p>
 
@@ -162,11 +165,11 @@ const Itinerario2 = () => {
                     className="h-20 w-20 md:h-24 md:w-24 mx-auto"
                   />
 
-                  <h2 className="mt-5 text-2xl font-playfair text-black">
+                  <h2 className="mt-5 text-2xl font-cursiveDancing text-black">
                     {evento.titulo}
                   </h2>
 
-                  <p className="mt-3 text-[#B89B5E] font-[DancingScript] text-xl">
+                  <p className="mt-3 text-[#b9a474] font-cursiveDancing text-xl">
                     {evento.hora}
                   </p>
 

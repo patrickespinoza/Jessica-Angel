@@ -15,17 +15,17 @@ const Celebracion = ({
       <div className="max-w-6xl mx-auto">
 
         {/* FECHA */}
-        <div className="text-center mb-20">
+        <div className="text-center mb-20 font-cursiveDancing">
 
-          <p className="uppercase tracking-[0.45em] text-[#B89B5E] text-xs sm:text-sm font-semibold">
+          <p className="uppercase tracking-[0.45em] text-[#b9a474] text-xs sm:text-sm font-semibold">
             {dia}
           </p>
 
-          <h1 className="mt-5 font-playfair text-[#40362B] text-7xl sm:text-8xl md:text-9xl leading-none">
+          <h1 className="mt-5 font-cursiveDancing text-[#40362B] text-7xl sm:text-8xl md:text-9xl leading-none">
             {fecha}
           </h1>
 
-          <div className="w-24 h-[1px] bg-[#C9A44C] mx-auto my-6"></div>
+          <div className="w-24 h-[1px] bg-[#b9a474] mx-auto my-6"></div>
 
           <p className="text-[#7B6A56] text-2xl sm:text-3xl tracking-[0.25em]">
             {mesAnio}
@@ -34,7 +34,7 @@ const Celebracion = ({
         </div>
 
         {/* TARJETA */}
-        <div className="relative">
+        <div className="relative font-cursiveDancing">
 
           {/* Marco exterior */}
           <div className="absolute inset-0 border border-[#D7C28A] pointer-events-none"></div>
@@ -51,20 +51,21 @@ const Celebracion = ({
               sm:px-16
               sm:py-20
               shadow-[0_20px_60px_rgba(100,75,35,0.08)]
+              
             "
           >
 
             {/* Línea superior */}
             <div className="flex justify-center mb-8">
-              <div className="w-20 h-[2px] bg-[#C9A44C]"></div>
+              <div className="w-20 h-[2px] bg-[#b9a474]"></div>
             </div>
 
             {/* TITULO */}
-            <h2 className="text-center font-playfair text-[#40362B] text-4xl sm:text-5xl">
+            <h2 className="text-center font-cursiveDancing text-[#40362B] text-4xl sm:text-5xl">
               {titulo}
             </h2>
 
-            <p className="text-center text-[#B89B5E] uppercase tracking-[0.4em] text-xs mt-3">
+            <p className="text-center text-[#b9a474] uppercase tracking-[0.4em] text-xs mt-3">
               Wedding Day
             </p>
 
@@ -76,11 +77,11 @@ const Celebracion = ({
 
               <div className="text-center">
 
-                <p className="uppercase tracking-[0.35em] text-[#B89B5E] text-xs mb-4">
+                <p className="uppercase tracking-[0.35em] text-[#b9a474] text-xs mb-4">
                   Hora
                 </p>
 
-                <p className="font-playfair text-[#40362B] text-3xl">
+                <p className="font-cursiveDancing text-[#40362B] text-3xl">
                   {hora}
                 </p>
 
@@ -88,11 +89,11 @@ const Celebracion = ({
 
               <div className="text-center">
 
-                <p className="uppercase tracking-[0.35em] text-[#B89B5E] text-xs mb-4">
+                <p className="uppercase tracking-[0.35em] text-[#b9a474] text-xs mb-4">
                   Lugar
                 </p>
 
-                <h3 className="font-playfair text-[#40362B] text-3xl leading-snug">
+                <h3 className="font-cursiveDancing text-[#40362B] text-3xl leading-snug">
                   {lugar}
                 </h3>
 
@@ -114,8 +115,8 @@ const Celebracion = ({
                 rel="noreferrer"
                 className="
                   border
-                  border-[#C9A44C]
-                  text-[#B89B5E]
+                  border-[#b9a474]
+                  text-[#b9a474]
                   bg-white
                   px-10
                   py-4
@@ -124,7 +125,7 @@ const Celebracion = ({
                   text-xs
                   transition-all
                   duration-300
-                  hover:bg-[#C9A44C]
+                  hover:bg-[#b9a474]
                   hover:text-white
                   hover:shadow-xl
                 "
@@ -137,7 +138,7 @@ const Celebracion = ({
             {/* Línea inferior */}
 
             <div className="flex justify-center mt-14">
-              <div className="w-20 h-[2px] bg-[#C9A44C]"></div>
+              <div className="w-20 h-[2px] bg-[#b9a474]"></div>
             </div>
 
           </div>

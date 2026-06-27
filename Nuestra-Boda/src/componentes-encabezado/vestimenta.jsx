@@ -24,7 +24,7 @@ const Vestimenta = () => {
           mx-auto
           bg-[#FFFDF8]
           border
-          border-[#D7C28A]
+          border-[#b9a474]
           shadow-[0_24px_70px_rgba(100,75,35,0.10)]
           overflow-hidden
         "
@@ -58,8 +58,8 @@ const Vestimenta = () => {
             <div className="absolute inset-0 bg-[#F8F4EB]/10" />
 
             {/* Línea dorada sobre imagen */}
-            <div className="absolute top-8 left-8 right-8 h-[1px] bg-gradient-to-r from-transparent via-[#C9A44C] to-transparent" />
-            <div className="absolute bottom-8 left-8 right-8 h-[1px] bg-gradient-to-r from-transparent via-[#C9A44C] to-transparent" />
+            <div className="absolute top-8 left-8 right-8 h-[1px] bg-gradient-to-r from-transparent via-[#b9a474] to-transparent" />
+            <div className="absolute bottom-8 left-8 right-8 h-[1px] bg-gradient-to-r from-transparent via-[#b9a474] to-transparent" />
           </motion.div>
 
           {/* TEXTO */}
@@ -93,7 +93,7 @@ const Vestimenta = () => {
                   sm:text-sm
                   tracking-[0.25em]
                   text-[#B89B5E]
-                  font-semibold
+                  font-cursiveDancing
                 "
               >
                 Código de Vestimenta
@@ -104,7 +104,7 @@ const Vestimenta = () => {
                 whileInView={{ width: "5rem" }}
                 transition={{ duration: 1, delay: 0.2 }}
                 viewport={{ once: true }}
-                className="h-[1px] bg-[#C9A44C] mx-auto mt-6"
+                className="h-[1px] bg-[#b9a474] mx-auto mt-6"
               />
 
               <motion.h1
@@ -114,7 +114,7 @@ const Vestimenta = () => {
                 viewport={{ once: true }}
                 className="
                   mt-8
-                  font-playfair
+                  font-cursiveDancing
                   text-[#40362B]
                   text-4xl
                   sm:text-5xl
@@ -138,7 +138,7 @@ const Vestimenta = () => {
                   leading-8
                   text-base
                   sm:text-lg
-                  font-light
+                  font-cursiveDancing
                 "
               >
                 Queremos compartir contigo una noche elegante y especial.
@@ -154,13 +154,13 @@ const Vestimenta = () => {
                 className="
                   mt-10
                   border
-                  border-[#D7C28A]
+                  border-[#b9a474]
                   bg-[#F8F4EB]
                   px-6
                   py-4
                 "
               >
-                <p className="font-[DancingScript] text-3xl text-[#B89B5E]">
+                <p className="font-cursiveDancing text-3xl text-[#B89B5E]">
                   Elegancia & Glamour
                 </p>
 
