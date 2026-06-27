@@ -84,12 +84,13 @@ const Novios = () => {
               transition={{ duration: 1, delay: 0.2 }}
               viewport={{ once: true }}
               className="
-                mt-8
-                font-playfair
-                text-[#3E3529]
-                text-4xl sm:text-6xl md:text-7xl
-                leading-tight
-              "
+  mt-8
+  font-cursiveDancing
+  tracking-wide
+  text-[#3E3529]
+  text-4xl sm:text-6xl md:text-7xl
+  leading-tight
+"
             >
               Jessica Paola De la Cruz Herrera
             </motion.h1>
@@ -116,11 +117,12 @@ const Novios = () => {
               transition={{ duration: 1, delay: 0.3 }}
               viewport={{ once: true }}
               className="
-                font-playfair
-                text-[#3E3529]
-                text-4xl sm:text-6xl md:text-7xl
-                leading-tight
-              "
+  font-cursiveDancing
+  tracking-wide
+  text-[#3E3529]
+  text-4xl sm:text-6xl md:text-7xl
+  leading-tight
+"
             >
               Ángel del Jesús Morales Martinez
             </motion.h1>
@@ -136,7 +138,7 @@ const Novios = () => {
                 text-[#7A6A55]
                 text-base sm:text-lg
                 leading-relaxed
-                font-light
+                font-roboto
               "
             >
               Tenemos el honor de invitarte a celebrar el inicio de nuestra historia juntos.
@@ -159,8 +161,8 @@ const Novios = () => {
                 <p className="uppercase tracking-[0.22em] text-[#B89B5E] text-xs mb-5">
                   Padres de la Novia
                 </p>
-                <p className="font-playfair text-2xl text-[#3E3529]">Roberto De la Cruz Carrillo</p>
-                <p className="font-playfair text-2xl text-[#3E3529] mt-2">Ninive Herrera Martinez</p>
+                <p className="font-serif text-2xl text-[#3E3529]">Roberto De la Cruz Carrillo</p>
+                <p className="font-serif text-2xl text-[#3E3529] mt-2">Ninive Herrera Martinez</p>
               </motion.div>
 
               <motion.div
@@ -200,8 +202,8 @@ const Novios = () => {
                 <p className="uppercase tracking-[0.22em] text-[#B89B5E] text-xs mb-5">
                   Padres del Novio
                 </p>
-                <p className="font-playfair text-2xl text-[#3E3529]">Abelardo Morales Hernandez</p>
-                <p className="font-playfair text-2xl text-[#3E3529] mt-2">Rafaela Martinez Damian</p>
+                <p className="font-serif text-2xl text-[#3E3529]">Abelardo Morales Hernandez</p>
+                <p className="font-serif text-2xl text-[#3E3529] mt-2">Rafaela Martinez Damian</p>
               </motion.div>
             </div>
           </div>
