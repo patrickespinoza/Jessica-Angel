@@ -91,7 +91,7 @@ const Novios = () => {
                 leading-tight
               "
             >
-              Allison Martinez
+              Jessica Paola De la Cruz Herrera
             </motion.h1>
 
             <motion.p
@@ -122,7 +122,7 @@ const Novios = () => {
                 leading-tight
               "
             >
-              David Hernandez
+              Ángel del Jesús Morales Martinez
             </motion.h1>
 
             <motion.p
@@ -159,8 +159,8 @@ const Novios = () => {
                 <p className="uppercase tracking-[0.22em] text-[#B89B5E] text-xs mb-5">
                   Padres de la Novia
                 </p>
-                <p className="font-playfair text-2xl text-[#3E3529]">Jose Martinez</p>
-                <p className="font-playfair text-2xl text-[#3E3529] mt-2">Karla Sanchez</p>
+                <p className="font-playfair text-2xl text-[#3E3529]">Roberto De la Cruz Carrillo</p>
+                <p className="font-playfair text-2xl text-[#3E3529] mt-2">Ninive Herrera Damian</p>
               </motion.div>
 
               <motion.div
@@ -200,8 +200,8 @@ const Novios = () => {
                 <p className="uppercase tracking-[0.22em] text-[#B89B5E] text-xs mb-5">
                   Padres del Novio
                 </p>
-                <p className="font-playfair text-2xl text-[#3E3529]">Gael Hernandez</p>
-                <p className="font-playfair text-2xl text-[#3E3529] mt-2">Marta Salazar</p>
+                <p className="font-playfair text-2xl text-[#3E3529]">Abelardo Morales Hernandez</p>
+                <p className="font-playfair text-2xl text-[#3E3529] mt-2">Rafaela Martinez Damian</p>
               </motion.div>
             </div>
           </div>

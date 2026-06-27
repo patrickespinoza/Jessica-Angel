@@ -44,15 +44,98 @@ export default function Itinerario() {
       {/* CONFIRMACIÓN */}
 
       {/* IMAGEN FINAL */}
-      <div className="flex flex-col items-center justify-center bg-[#F7F4ED]">
+     {/* FRASE FINAL */}
+<section className="w-full bg-[#F8F5EF] py-24 px-6">
+  <div className="max-w-4xl mx-auto text-center">
 
-        <img
-          src="/finalboda.webp"
-          alt="acepto"
-          className="w-full max-w-5xl object-cover"
-        />
+    {/* Línea superior */}
+    <div className="flex items-center justify-center gap-5 mb-10">
+      <div className="w-20 h-px bg-[#D7C28A]" />
+      <div className="w-2 h-2 rounded-full bg-[#D7C28A]" />
+      <div className="w-20 h-px bg-[#D7C28A]" />
+    </div>
 
-      </div>
+    <h2
+      className="
+        font-playfair
+        text-4xl
+        md:text-5xl
+        text-[#8D6B2F]
+        font-light
+        mb-8
+      "
+    >
+      La felicidad
+    </h2>
+
+    <p
+      className="
+        font-playfair
+        text-xl
+        md:text-3xl
+        leading-relaxed
+        text-[#5A5347]
+        max-w-3xl
+        mx-auto
+      "
+    >
+      es más grande cuando se comparte con quienes
+    </p>
+
+    <p
+      className="
+        font-[DancingScript]
+        text-[#B8924C]
+        text-5xl
+        md:text-7xl
+        leading-none
+        my-6
+      "
+    >
+      más queremos
+    </p>
+
+    <div className="w-28 h-px bg-[#D7C28A] mx-auto my-10" />
+
+    <p
+      className="
+        font-playfair
+        text-2xl
+        md:text-3xl
+        text-[#8D6B2F]
+        mb-4
+      "
+    >
+      Confirma tu asistencia
+    </p>
+
+    <p
+      className="
+        font-playfair
+        text-base
+        md:text-lg
+        tracking-wide
+        text-[#6F675B]
+        max-w-xl
+        mx-auto
+        leading-8
+      "
+    >
+      Tu confirmación será un regalo muy especial para nosotros.
+      <br />
+      Esperamos contar con tu presencia para compartir este día
+      tan importante en nuestras vidas.
+    </p>
+
+    {/* Línea inferior */}
+    <div className="flex items-center justify-center gap-5 mt-12">
+      <div className="w-20 h-px bg-[#D7C28A]" />
+      <div className="text-[#D7C28A] text-xl">♥</div>
+      <div className="w-20 h-px bg-[#D7C28A]" />
+    </div>
+
+  </div>
+</section>
       <Confirmacion/>
 
     </div>
