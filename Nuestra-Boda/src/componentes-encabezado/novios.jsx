@@ -160,7 +160,7 @@ const Novios = () => {
                   Padres de la Novia
                 </p>
                 <p className="font-playfair text-2xl text-[#3E3529]">Roberto De la Cruz Carrillo</p>
-                <p className="font-playfair text-2xl text-[#3E3529] mt-2">Ninive Herrera Damian</p>
+                <p className="font-playfair text-2xl text-[#3E3529] mt-2">Ninive Herrera Martinez</p>
               </motion.div>
 
               <motion.div
